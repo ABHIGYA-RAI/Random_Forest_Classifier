@@ -49,7 +49,7 @@ def sms_preprocess(sms):
 
 if slt.button('Click to know if it is Ham or Spam'):
     preprocessed = sms_preprocess(user_input)
-    vectorized = tfidf_vectorizer.transform(preprocessed)
+    vectorized = tfidf_vectorizer.transform([preprocessed])
     prediction = forest_classifier.predict(vectorized)[0]
     if prediction == 0:
         slt.header("HAM!! Read it.")
