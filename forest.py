@@ -4,7 +4,7 @@ import nltk
 import string
 p = string.punctuation
 nltk.download('stopwords')
-nltk.download('punkt')
+nltk.download('punkt_tab')
 from nltk.stem.porter import PorterStemmer
 stemmer = PorterStemmer()
 
