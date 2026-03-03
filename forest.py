@@ -11,7 +11,7 @@ if slt.button('Click to know if it is Ham or Spam'):
     with open('tf_vector.pkl', 'rb') as file:
         tfidf_vectorizer = pickle.load(file)
 
-    arr_input = np.array([user_input.split(',')],dtype=float)
+    arr_input = np.array(user_input.split(','), dtype=float)
     prediction = forest_classifier.predict(arr_input)
     if prediction[0] == 0:
         slt.header("HAM!! Read it.")
