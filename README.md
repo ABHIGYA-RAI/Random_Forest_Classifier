@@ -7,3 +7,10 @@ The Random Forest Classifier is better at classifying ham and spam SMS than Mult
 ![Exploratory Data Analysis](Piechart.png)
 
 ![Exploratory Data Analysis](Pairplot.png)
+
+![Exploratory Data Analysis](WC_ham.png)
+
+![Exploratory Data Analysis](WC_spam.png)
+
+
+
